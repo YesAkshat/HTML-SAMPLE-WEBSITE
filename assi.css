@@ -1,0 +1,113 @@
+body {
+    background-color: aliceblue;
+
+}
+
+@keyframes anima {
+    from {color: red;}
+    to {color: cadetblue;}
+}
+
+h1 {
+    width: 100px;
+    height: 100px;
+    color: red;
+    animation-name: anima;
+    animation-duration: 4s;
+    text-align: center;
+    
+}
+.home {
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    background-color:cornflowerblue;
+    position: absolute;
+    top: 10%;
+    left: 90%;
+}
+
+.login {
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    background-color:cornflowerblue;
+    position: absolute;
+    top: 1%;
+    left: 80%;
+}
+
+.login:hover {
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+img {
+    position: relative;
+    top: 100%;
+    left: 50%;
+    border-radius: 50%;
+    max-width: 50%;
+
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popup .popupt {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .popupt::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
