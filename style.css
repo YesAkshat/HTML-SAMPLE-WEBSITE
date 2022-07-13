@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navbar {
+    background-color: black;
+    
+}
+
+.Navbar a {
+    float: left;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.Navbar a.active {
+    background-color:cornflowerblue;
+}
+
+.login {
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    background-color:cornflowerblue;
+    position: relative;
+    left: 70%;
+}
+
+.login:hover {
+    background-color: cadetblue;
+    color: aliceblue;
+}
+h3 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+img {
+    position: absolute;
+    top: 26%;
+    left: 10%;
+    border-radius: 100%;
+}
+
+img:hover {
+    transform: scaleX(-1);
+}
+
+.Assistant {
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    background-color:cornflowerblue;
+    position: absolute;
+    top: 30%;
+    left: 67%;
+}
+
+.FAQ {
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    background-color:cornflowerblue;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+
+.About {
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    background-color:cornflowerblue;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+.Support {
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    background-color:cornflowerblue;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+
+.footer {
+    background-color: #212329;
+    padding-bottom: 4rem;
+    position: absolute;
+    top: 100%;
+    width:100%;
+
+}
+
+.footer1 {
+    width: 70%;
+    height: 40vh;
+    background-color: #212329;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading-1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading-1 h2 {
+    margin-bottom: 2rem;
+
+}
+
+.footer-heading-1 a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading-1 a:hover {
+    color: chartreuse;
+    transition: 0.3s ease-out;
+
+}
+
+.footer-heading-2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading-2 h2 {
+    margin-bottom: 2rem;
+
+}
+
+.footer-heading-2 a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading-2 a:hover {
+    color: chartreuse;
+    transition: 0.3s ease-out;
+
+}
+.footer-heading-3 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading-3 h2 {
+    margin-bottom: 2rem;
+
+}
+
+.footer-heading-3 a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading-3 a:hover {
+    color: chartreuse;
+    transition: 0.3s ease-out;
+
+}
+
+#Sideshare a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 0 5px;
+}
+
+#Sideshare a:hover {
+    left:0;
+
+}
+
+#Discord {
+    top:60px;
+    background-color: #04AA6D;
+}
+
+#Instagram {
+    top: 120px;
+    background-color: orange;
+
+}
+
+#Twitter {
+    top: 180px;
+    background-color: lightskyblue;
+
+}
+
+#Youtube {
+    top:240px;
+    background-color: #555;
+}

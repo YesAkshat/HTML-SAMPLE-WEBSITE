@@ -1,0 +1,42 @@
+body {
+    background-color: burlywood;
+}
+
+
+h1 {
+    color: blueviolet;
+
+}
+
+h2 {
+    color: chartreuse;
+}
+
+p {
+    color: blueviolet;
+}
+
+h3 {
+
+    color: chartreuse;
+}
+header {
+    color: blueviolet;
+}
+
+.home {
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    background-color:cornflowerblue;
+    position: absolute;
+    top: 30%;
+    left: 67%;
+}
